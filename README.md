@@ -8,17 +8,20 @@ Vamos usar o Vagrant, uma ferramenta para criação e gerenciamento de máquinas
 
 ## Instalação do Ambiente
 ```
+// Instalar a box do Homestead no Vagrant
+$ vagrant box add laravel/homestead
+
 // Clonar repo
-git clone https://github.com/laravel/homestead.git ~/Homestead
+$ git clone https://github.com/laravel/homestead.git ~/Homestead
 
 // Entrar no diretório
-cd ~/Homestead
+$ cd ~/Homestead
 
 // Dar checkout na versão 7.4
-git checkout v7.4.0
+$ git checkout v7.4.0
 
 // Criar o arquivo Homesteal.yaml
-bash init.sh (Mac/Linux)
-init.bat (Windows)
+$ bash init.sh (Mac/Linux)
+$ init.bat (Windows)
 ```
 Caso ocorram problemas relacionados à versão do PowerShell no Windows, baixar a versão 3.0 [aqui](https://www.microsoft.com/en-us/download/details.aspx?id=34595)
